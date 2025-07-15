@@ -27,9 +27,6 @@ print("")
 today = date.today()
 print(str(today) + "\n")
 
-filename = str(today) + ".txt"
-print(filename)
-
 print("What do you want to do? \n")
 print("1 / 2 / 3 / 4\n ")
 
