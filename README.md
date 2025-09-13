@@ -6,7 +6,7 @@ NOTE: This only works on Gnu based OS's ! (Linux, MacOS)
 ## Install
 
 Just put the PyJournal folder into any directory you might like.
-do not remove OR move the subfolder "pages", it will break the project!
+Do not remove OR move the subfolder "pages", it will break the project!
 
 ## Preview
 
