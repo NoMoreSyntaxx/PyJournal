@@ -26,6 +26,7 @@ print("")
 
 today = date.today()
 print(str(today) + "\n")
+filename = str(today) + ".txt"
 
 print("What do you want to do? \n")
 print("1 / 2 / 3 / 4\n ")
@@ -45,10 +46,14 @@ if mode == "1":
         open("pages/"+str(filename), "a").write(user_input + "\n")
 
 if mode == "2":
+    if not os.path.exists("pages/"+str(filename)):
+            open("pages/"+str(filename), "w").write(f"Journal Entry for {today}\n\n")
     journal_content = open("pages/"+str(filename), "r").read()
     print(journal_content)
 
 if mode == "3":
+    if not os.path.exists("pages/"+str(filename)):
+            open("pages/"+str(filename), "w").write(f"Journal Entry for {today}\n\n")
     os.system("clear")
     header()
     clear_confirm = input("Are you sure you want to clear today's Journal? This action can't be undone! (Y/n)")
