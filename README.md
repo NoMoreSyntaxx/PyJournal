@@ -1,7 +1,7 @@
 # PyJournal
 A terminal-based Journaling tool written in Python.
 
-NOTE: This only works on Gnu based OS's ! (Linux, MacOS)
+NOTE: This only works on UNIX-like Operating Systems. (Linux, MacOS)
 
 ## Install
 
