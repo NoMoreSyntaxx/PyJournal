@@ -70,4 +70,4 @@ if mode == "4":
     os.system("clear")
 
 
-# SyntaxxDev
+# girlnox
